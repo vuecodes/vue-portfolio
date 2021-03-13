@@ -1,13 +1,23 @@
 {
   "name": "vue-portfolio",
   "description": "Vue 3 and PWA Portfolio application.",
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "main": "src/main.js",
   "private": false,
+  "homepage": "https://github.com/vuecodes",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "surge": "vue-cli-service build"
-
+    "deploy:surge": "vue-cli-service build && surge ./dist --domain https://vcodes-portfolio.surge.sh && start https://vcodes-portfolio.surge.sh"
+  },
+  "author": {
+    "name": "David Deviss",
+    "email": "sugin223pl@gmail.com",
+    "url": "https://github.com/vuecodes"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vuecodes/vue-portfolio.git"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -26,5 +36,6 @@
     "@vue/compiler-sfc": "^3.0.0",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2"
-  }
+  },
+  "license": "MIT"
 }

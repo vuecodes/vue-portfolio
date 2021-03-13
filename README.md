@@ -1,22 +1,31 @@
 # Vue 3 Portfolio
-It's a Vue 3 (composition-api) project ready to be edited and used. 
-Thanks to BootstrapMade for HTML Template.
+It's a Vue 3 (composition-api) project ready to be edited and use thanks to BootstrapMade for the Portfolio HTML Template.
+
 Get the original HTML `iPortfolio - Bootstrap Portfolio Websites Template` from BootstrapMade 
+
 [Download](https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/).
+
+## What is this?
+```
+It has the same look and feel but it's converted to VUE 3 and PWA Support.
+```
+
+## Demo
+[View demo](https://vcodes-portfolio.surge.sh).
 
 ## Project setup
 ```
-yarn install
+yarn install or npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn serve or npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+yarn build or npm run build
 ```
 
 ### Customize configuration
