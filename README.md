@@ -1,5 +1,5 @@
-# Vue 3 Portfolio
-It's a Vue 3 (composition-api) project ready to be edited and use thanks to BootstrapMade for the Portfolio HTML Template.
+# Vue 3 Portfolio Template
+It's a Vue 3 (composition-api) project ready to be use and modified thanks to BootstrapMade for the Portfolio HTML Template.
 
 Get the original HTML `iPortfolio - Bootstrap Portfolio Websites Template` from BootstrapMade 
 
